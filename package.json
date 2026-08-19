@@ -1,7 +1,8 @@
 {
   "name": "pi-apply-patch-plus",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Pi extension that brings Codex-style apply_patch to pi: patch-based multi-file editing with local verification, diff UI, and smart GPT model detection.",
+  "homepage": "https://github.com/matsuzaka-yuki/pi-apply-patch-plus",
   "type": "module",
   "keywords": [
     "pi-package",

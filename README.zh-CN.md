@@ -31,11 +31,27 @@
 
 ## 安装
 
+需要先安装 [pi](https://github.com/earendil-works/pi)。从 npm 安装：
+
+```bash
+pi install npm:pi-apply-patch-plus
+```
+
+然后在 pi 中输入 `/reload`，让扩展加载进当前会话。
+
+后续更新：
+
+```bash
+pi update npm:pi-apply-patch-plus
+```
+
+其他方式 —— 从源码仓库安装：
+
 ```bash
 pi install git:github.com/matsuzaka-yuki/pi-apply-patch-plus
 ```
 
-或本地开发：
+本地开发：
 
 ```bash
 pi install ./

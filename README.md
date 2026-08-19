@@ -31,11 +31,27 @@ Bring **Codex-style patch-based editing** to [pi](https://github.com/earendil-wo
 
 ## Install
 
+Requires [pi](https://github.com/earendil-works/pi). Install the package from npm:
+
+```bash
+pi install npm:pi-apply-patch-plus
+```
+
+Then run `/reload` inside pi so the extension is loaded into the current session.
+
+To update later:
+
+```bash
+pi update npm:pi-apply-patch-plus
+```
+
+Alternatives — install from the source repository:
+
 ```bash
 pi install git:github.com/matsuzaka-yuki/pi-apply-patch-plus
 ```
 
-Or for local development:
+or for local development:
 
 ```bash
 pi install ./
